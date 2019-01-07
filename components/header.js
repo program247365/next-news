@@ -11,7 +11,7 @@ export default () => (
            <Logo />
          </span>
          <span className="title">Hacker Next</span>
-         <span className="title">(<a href="https://kevinridgway.com/?ref=hackernewsclone">Kevin Edition</a>)</span>
+         <span className="vanitylink"><a target="_blank" rel="noopener noreferrer" href="https://kevinridgway.com/?ref=hackernewsclone">Kevin Edition</a></span>
        </a>
       </Link>
       <div className="nav">
@@ -51,12 +51,22 @@ export default () => (
         vertical-align: top;
       }
 
-      .title a, .title a:visited {
+      .vanitylink a {
         font-weight: bold;
+        display: inline-block;
+        padding: 10px;
+        text-transform: uppercase;
         text-decoration: none;
-        padding: 8px 10px 8px 4px;
         color: #000;
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
         vertical-align: top;
+      }
+
+      .vanitylink a:hover {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        color: #fff;
       }
 
       a.login {
