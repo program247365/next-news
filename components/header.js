@@ -10,7 +10,8 @@ export default () => (
          <span className="logo">
            <Logo />
          </span>
-         <span className="title">Hacker Next (<a href="https://kevinridgway.com/?ref=hackernewsclone">Kevin Edition</a>)</span>
+         <span className="title">Hacker Next</span>
+         <span className="title">(<a href="https://kevinridgway.com/?ref=hackernewsclone">Kevin Edition</a>)</span>
        </a>
       </Link>
       <div className="nav">
@@ -44,6 +45,14 @@ export default () => (
       .title {
         font-weight: bold;
         display: inline-block;
+        text-decoration: none;
+        padding: 8px 10px 8px 4px;
+        color: #000;
+        vertical-align: top;
+      }
+
+      .title a {
+        font-weight: bold;
         text-decoration: none;
         padding: 8px 10px 8px 4px;
         color: #000;
