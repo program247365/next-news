@@ -14,8 +14,12 @@ export default () => (
       <link rel="shortcut icon" href="/static/favicon.ico" />
     </Head>
     <style jsx global>{`
+    @import url('https://rsms.me/inter/inter-ui.css');
+    html { font-family: 'Inter UI', sans-serif; }
+    @supports (font-variation-settings: normal) {
+      html { font-family: 'Inter UI var alt', sans-serif; }
+    }
       body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
         background: #eee;
       }
 

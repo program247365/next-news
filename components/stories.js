@@ -33,11 +33,7 @@ export default ({ stories, page=1, offset=null }) => (
         flex-basis: auto;
         flex-grow: 1;
         vertical-align: top;
-        font-size: 14px;
-        padding-right: 5px;
         display: block;
-        width: 20px;
-        text-align: right;
       }
 
       .count::after {
@@ -55,7 +51,6 @@ export default ({ stories, page=1, offset=null }) => (
 
       .footer a {
         color: #000;
-        font-size: 14px;
         display: inline-block;
         text-decoration: none;
       }

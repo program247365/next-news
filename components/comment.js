@@ -51,7 +51,6 @@ export default class Comment extends React.Component {
         }
 
         .meta {
-          font-size: 12px;
           margin-bottom: 5px;
         }
 
@@ -61,8 +60,6 @@ export default class Comment extends React.Component {
 
         .text {
           color: #000;
-          font-size: 13px;
-          line-height: 18px;
         }
 
         /* hn styles */

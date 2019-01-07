@@ -21,6 +21,8 @@ export default ({ children }) => (
         color: #828282;
         background: #fff;
         padding: 3px 10px;
+        font-size: 1.2em; /* 16 * 0.75 = 12 */
+        line-height: 1.5em
       }
 
       @media (max-width: 750px) {

@@ -48,7 +48,6 @@ export default ({ id, title, date, url, user, score, commentsCount }) => {
     </div>
     <style jsx>{`
       .title {
-        font-size: 15px;
         margin-bottom: 3px;
       }
 
@@ -61,12 +60,7 @@ export default ({ id, title, date, url, user, score, commentsCount }) => {
         color: #828282;
       }
 
-      .meta {
-        font-size: 12px;
-      }
-
       .source {
-        font-size: 12px;
         display: inline-block;
         margin-left: 5px;
       }
