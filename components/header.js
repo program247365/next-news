@@ -51,7 +51,7 @@ export default () => (
         vertical-align: top;
       }
 
-      .title a {
+      .title a, .title a:visited {
         font-weight: bold;
         text-decoration: none;
         padding: 8px 10px 8px 4px;
