@@ -3,7 +3,7 @@
   "license": "MIT",
   "dependencies": {
     "firebase": "^3.7.3",
-    "ms": "^1.0.0",
+    "ms": "^2.1.2",
     "next": "beta",
     "nprogress": "^0.2.0",
     "react": "^15.5.4",
