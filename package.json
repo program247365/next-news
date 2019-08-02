@@ -2,7 +2,7 @@
   "name": "next-news",
   "license": "MIT",
   "dependencies": {
-    "firebase": "^3.7.3",
+    "firebase": "^6.3.4",
     "ms": "^1.0.0",
     "next": "beta",
     "nprogress": "^0.2.0",
